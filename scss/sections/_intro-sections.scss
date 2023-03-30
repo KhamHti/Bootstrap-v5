@@ -14,7 +14,7 @@
         position: relative;
 
         a {
-            // @include absoluteCenter;
+            @include absoluteCenter;
 
             span {
 
@@ -24,5 +24,24 @@
                 }
             }
         }
+    }
+}
+
+.border-animation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 6rem;
+    height: 6rem;
+    border: 0.54rem solid $white;
+    border-radius: 50%;
+    animation: pulse-border 1.5s linear infinite;
+
+    &--border-1 {
+        animation-delay: 1s;
+    }
+
+    &--border-2 {
+        animation-delay: 1.5s;
     }
 }
