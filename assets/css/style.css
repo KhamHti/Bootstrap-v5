@@ -11943,6 +11943,25 @@ textarea.form-control-lg {
   }
 }
 
+.heading-line::before {
+  content: "";
+  width: 13rem;
+  height: 0.234rem;
+  display: block;
+  background-color: #0dcaf0;
+  margin: 0 auto;
+}
+
+.heading-line::after {
+  content: "";
+  width: 3rem;
+  height: 0.5rem;
+  display: block;
+  background-color: #0dcaf0;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
 .intro-section {
   background: linear-gradient(to right, rgba(13, 202, 240, 0.95), rgba(153, 38, 240, 0.95));
   padding: 1rem 0 0 0;
